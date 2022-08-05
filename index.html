@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Unit Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-container">
+        <h1 class="title">Metric/Imperial Unit Conversion</h1>
+        <textarea
+          name="number"
+          id="num-el"
+          placeholder= "Type Your Number"
+        ></textarea>
+        <button id="btn-el">Convert</button>
+      </div>
+
+      <div class="main">
+        <div class="box">
+          <h2 class="title-main">Length (Meter/Feet)</h2>
+          <p class="txt" id="length-el">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+        </div>
+
+        <div class="box">
+          <h2 class="title-main">Volume (Liters/Gallons)</h2>
+          <p class="txt" id="volume-el">20 liters = 5.284 gallons | 20 gallons = 75.708 liters</p>
+        </div>
+
+        <div class="box">
+          <h2 class="title-main">Mass (Kilograms/Pounds)</h2>
+          <p class="txt" id="mass-el">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</p>
+        </div>
+
+      </div>
+      <footer><a class="link"href="https://github.com/FaranakSabet/Unit-Converter">Open-source code</a> by Faranak Sabet</footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
